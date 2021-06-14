@@ -8,6 +8,8 @@ public class Main {
 		student.gradeLevel = 12;
 		student.GPA = 3.4;
 		
+		//testing connection from laptop
+		
 		
 		System.out.println(student.studentInfo());
 	}
