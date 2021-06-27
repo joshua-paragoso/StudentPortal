@@ -44,6 +44,7 @@ public class Main {
 			//execute SQL query
 			ResultSet rs = statement.executeQuery(sql);
 			
+			System.out.println("Here are the students in the class");
 			//prints the result set
 			while(rs.next()) {
 				String name = rs.getString("Name");
